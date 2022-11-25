@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+/*Шапка страницы*/
+.header {
+    background-color: #51516b;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.header_cont {
+    display: flex;
+    justify-content: flex-start;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header_text {
+    padding-left: 50px;
+}
+
+/*Основаня часть*/
+.main {
+    background-color: #fdf9f9;
+    color: brown;
+
+}
+
+.Objective {
+    padding: 25px 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.Objective-title,
+.Objective-text {
+    padding: 20px;
+}
+
+.experience {
+    padding: 25px 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.Experience_title {
+    padding: 30px;
+}
+
+.Experience-year {
+    width: 100px;
+    text-align: center;
+    text-align: left;
+}
+
+.content__experience-blocks {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content__experience-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 80px;
+
+}
+
+.Experience-text {
+    width: auto;
+}
+
+.Skills {
+    padding: 25px 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.Skills_title,
+.Skills_text {
+    padding: 10px 20px;
+
+}
+
+.Language {
+    padding: 25px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.Language_title {
+    padding: 10px 20px;
+}
+
+.Language_list {
+    padding: 0px 30px;
+}
+
+
+.form {
+    background-color: rgb(209, 191, 191);
+    padding: 20px 0;
+
+}
+
+.form_cont {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.form-title {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.form__cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    text-align: center;
+}
+
+.form-input,
+.form-textarea {
+    background-color: rgb(209, 191, 191);
+    border: none;
+    border-bottom: solid 1.25px #51516b;
+    width: 200px;
+}
+
+.form-textarea {
+    resize: none;
+    width: 500px;
+}
+
+.form-btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(40, 51, 53);
+    color: white;
+    margin: 25px;
+}
+
+/*footer */
+.footer {
+    background-color: rgb(38, 59, 58);
+    text-align: center;
+}
+
+.footer_cont {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.contacts-title {
+    color: white;
+    padding: 20px;
+}
+
+.contacts___list {
+    color: white;
+    padding-top: 20px;
+}
+
+.contacts_cont {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ars {
+    color: rgb(87, 121, 134);
+    padding: 40px 0px;
+    text-align: center;
+}
